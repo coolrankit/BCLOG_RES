@@ -1,0 +1,187 @@
+/*
+Theme Name: BCLOG-Theme
+Theme URI: https://www.regulusreign.com/
+Author: RegulusReign Technologies
+Author URI: https://www.regulusreign.com/
+Description: Custom Theme.
+Version: 1.0
+*/
+
+/*****************************************************************************************************************************/
+/* RESET */
+html{font-size: 62.5%;color:#000;}
+*, *:before, *:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin: 0;padding:0;}
+/*html {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;overflow-y: scroll;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}*/
+button, input {-webkit-hyphens: none;-moz-hyphens: none;-ms-hyphens: none;hyphens: none;}
+button, input, select, textarea {background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); border: 1px solid #eaeaea;border: 1px solid rgba(0, 0, 0, 0.2);background-color: #f7f7f7;border-radius: 0;margin: auto;padding:auto;line-height:auto;}
+ol, ul {list-style: none;}
+a{color:inherit;}
+a{color:#EC008C;} /*rgba(150,3,187,1)*7*/
+a img{border: 0; outline:0;}
+a{text-decoration:none;}
+div{}
+.emsg{color:#ff0000;}
+.smsg{color:#009900;}
+
+/* TYPOGRAPHY */
+body{font-family: "Noto Serif", serif;font-size:14px;font-size:1.4rem;min-width:275px;}
+button, input, select, textarea {font-family: "Noto Serif", serif;font-size:14px;font-size:1.4rem;color: #00000;}
+p{font-size:1.5rem;}
+
+/* FORMS */
+button,
+input,
+select,
+textarea {
+	background-color: #f7f7f7;
+	border-radius: 0;
+	font-size: 14px;
+	font-size: 1.4rem;
+	margin: 0;
+	max-width: 100%;
+	vertical-align: baseline;
+	border-radius: 3px;
+}
+
+button,
+input {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	line-height: normal;
+}
+
+input,
+textarea {
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); 
+	border: 1px solid #eaeaea;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+}
+
+input:focus,
+textarea:focus {
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	border: 1px solid rgba(51, 51, 51, 0.3);
+	color: #333;
+}
+
+input:focus,
+select:focus {
+	/*outline: 2px solid #c1c1c1;
+	outline: 2px solid rgba(51, 51, 51, 0.3);*/
+}
+
+button[disabled],
+input[disabled],
+select[disabled],
+textarea[disabled] {
+	cursor: default;
+	opacity: .5;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	background-color: #EC008C;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	outline: 0;
+	background-color: rgba(150,3,187,0.7);
+	color: #fff;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="time"],
+textarea {
+	padding: 0.375em;
+	width: 100%;
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	outline: 0;
+}
+
+.post-password-form {
+	position: relative;
+}
+
+.post-password-form label {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	display: block;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+.post-password-form input[type="submit"] {
+	padding: 0.7917em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0;
+}
+
+.search-form input[type="submit"],
+.widget .search-form input[type="submit"] {
+	padding: 0;
+}
